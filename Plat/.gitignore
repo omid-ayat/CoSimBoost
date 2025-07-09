@@ -1,0 +1,32 @@
+
+#   Ignore everything
+*
+!/**/
+
+#   add git configure files
+!.gitignore
+
+#   add markdown files
+!*.md
+
+#   add c/c++ files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+
+#   add FPGA files
+!*.v
+!*.vhdl
+!*.sv
+!*.tcl
+
+
+#   add MATLAB Files
+!*.m
+
+
+
+#   .gitignore file for ChirpComm project
+!HDL/
+HDL/Snrio/

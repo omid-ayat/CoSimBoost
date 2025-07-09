@@ -1,0 +1,50 @@
+#   .gitignore file for ChirpComm project
+
+
+
+
+#   FPGA Ip related files
+*.veo
+*.vho
+
+#   Ignore everything
+*
+!/**/
+
+#   add git configure files
+!.gitignore
+
+
+#   add markdown files
+!*.md
+
+#   add c/c++ files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+
+#   add FPGA files
+!*.v
+!*.vhdl
+!*.sv
+!*.tcl
+!*.xci
+!*.mem
+
+
+#   add MATLAB Files
+!*.m
+
+# #   .gitignore for IP's unintended files
+# !IP_Repo/
+# IP_Repo/
+
+# IP_Repo/**/sources_1/imports/
+# IP_Repo/**/sim_scripts/
+# IP_Repo/**/example_designs/
+# IP_Repo/**/ipstatic/
+# IP_Repo/**/xgui/
+# IP_Repo/**/bd/
+# IP_Repo/**/data/
+

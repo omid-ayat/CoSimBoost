@@ -1,6 +1,6 @@
-# CoSimBoost
+# CoVerBoost
 
-**CoSimBoost** is an open-source parallel hardware/software co-verification platform that accelerates HDL verification by comparing simulation results against high-level MATLAB models. Designed for hardware developers, it enables rapid prototyping, efficient scenario management, and significant time savings through parallel simulation.
+**CoVerBoost** is an open-source parallel hardware/software co-verification platform that accelerates HDL verification by comparing simulation results against high-level MATLAB models. Designed for hardware developers, it enables rapid prototyping, efficient scenario management, and significant time savings through parallel simulation.
 
 ## 🔧 Key Features
 
@@ -24,7 +24,7 @@
 ## 📂 Project Structure
 
 ```text
-CoSimBoost/
+CoVerBoost/
 ├── Plat/                   # MATLAB scripts and test case generators
 ├── hdl/                    # HDL modules and testbenches
 ├── docs/                   # Documentation and usage guides
